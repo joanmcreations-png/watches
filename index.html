@@ -8,12 +8,16 @@
 <meta name="description" content="What 139 vintage watches really sell for, the most you should pay and what to check before you do. Built on real sold prices, updated every quarter.">
 <meta property="og:title" content="The Vintage Watch Price Bible">
 <meta property="og:description" content="Never overpay for a vintage watch again. 139 watches, a page for every one, free updates for life.">
-<meta property="og:image" content="https://timekeptwatches.com/assets/about.jpg">
+<meta property="og:image" content="https://timekeptwatches.com/assets/og.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://timekeptwatches.com/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <meta name="theme-color" content="#101820">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/landing.css?v=5">
+<link rel="stylesheet" href="assets/landing.css?v=6">
 </head>
 <body>
 
@@ -23,6 +27,7 @@
     <nav aria-label="Main">
       <a href="#book">The book</a>
       <a href="#proof">Real sales</a>
+      <a href="#try">Look up a watch</a>
       <a href="#inside">What&rsquo;s inside</a>
       <a href="#faq">Questions</a>
     </nav>
@@ -77,6 +82,7 @@
           <h3>The Vintage Watch Price Bible</h3>
           <p>Price tables for eight countries, and a page for every watch in them. How to buy from Japan without the fees eating the saving. What a service will really cost. How to ask for a lower price without being rude. And three indexes, so you can find any watch in seconds by name, by the number on the caseback or by budget.</p>
           <div class="price-line"><b>$39</b><span>paid once, launch price</span></div>
+          <p class="math">In the five real sales below, buyers paid about $1,000 each over the fair range. The book costs $39.</p>
           <p class="gets-title">What you get</p>
           <ul class="gets">
             <li><span><b>The book</b>, 175 pages you can read on a phone, tablet or computer, or print at home</span></li>
@@ -137,10 +143,29 @@
     </div>
   </section>
 
-  <section class="part" id="inside">
+  <section class="part lookup" id="try">
     <div class="wrap">
       <div class="part-head reveal">
         <div class="num">III.</div>
+        <div>
+          <h2>Look up a watch before you buy it.</h2>
+          <p>Here are ten of the 139 watches, with the same numbers you get in the book. Pick one.</p>
+        </div>
+      </div>
+      <div class="lookup-box reveal">
+        <div data-lookup></div>
+        <div class="lookup-cta">
+          <p>The other 129 are in the book, each with its own page.</p>
+          <a class="btn btn-solid" data-link="buy" href="#book">Get all 139 watches, $39 &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="part" id="inside">
+    <div class="wrap">
+      <div class="part-head reveal">
+        <div class="num">IV.</div>
         <div>
           <h2>What&rsquo;s in the 175 pages.</h2>
           <p>Eight countries and a page for every watch, plus the chapters that save you money before you even pick one. A few of the watches you&rsquo;ll find:</p>
@@ -162,7 +187,7 @@
   <section class="part alt" id="look">
     <div class="wrap">
       <div class="part-head reveal">
-        <div class="num">IV.</div>
+        <div class="num">V.</div>
         <div>
           <h2>Easy to read. Easy to find your way around.</h2>
           <p>Tap any watch name and you jump to its page. Tabs on the edge of every page take you to each country. Tap a page below to see it bigger.</p>
@@ -181,7 +206,7 @@
     <div class="wrap about">
       <figure class="frame reveal"><img src="assets/workbench.jpg" alt="Hands opening the caseback of a vintage watch on a watchmaker&rsquo;s bench" width="1122" height="1402" loading="lazy"></figure>
       <div class="reveal">
-        <div class="part-head about-head"><div class="num">V.</div><div><h2>Who&rsquo;s behind it.</h2></div></div>
+        <div class="part-head about-head"><div class="num">VI.</div><div><h2>Who&rsquo;s behind it.</h2></div></div>
         <p>Time Kept is a YouTube channel about vintage watches: where they came from, what they&rsquo;re worth and how buyers get caught out. Under almost every video, someone asks the same thing. Is this price fair? Is that dial original? What should I pay?</p>
         <p>This book is the long answer. The prices start from real sold listings, never asking prices. Every watch comes with the red flags we&rsquo;ve learned to look for. And since the market keeps moving, a new edition comes out every quarter, free for everyone who bought it.</p>
         <blockquote>When you buy a vintage watch, you should know what it&rsquo;s worth before the seller tells you.</blockquote>
@@ -193,7 +218,7 @@
   <section class="part alt" id="faq">
     <div class="wrap">
       <div class="part-head reveal">
-        <div class="num">VI.</div>
+        <div class="num">VII.</div>
         <div><h2>Questions people ask first.</h2></div>
       </div>
       <div class="faq">
@@ -233,14 +258,24 @@
 
 <dialog class="exit" aria-labelledby="exit-title">
   <button class="x" aria-label="Close">&times;</button>
-  <img src="assets/page-cover.jpg" alt="The Vintage Watch Price Bible" width="1224" height="1584">
-  <h3 id="exit-title">Before you go.</h3>
-  <p>One bad buy costs more than this book. 139 watches, what each is worth and what to check. $39, with 30 days to change your mind.</p>
-  <a class="btn btn-solid" data-link="buy" href="#book">Get the book, $39 &rarr;</a>
-  <a class="or" href="#inside">or see what&rsquo;s inside first</a>
+  <div class="exit-grid">
+    <div class="exit-cover"><img src="assets/page-cover.jpg" alt="The Vintage Watch Price Bible" width="1224" height="1584"></div>
+    <div class="exit-body">
+      <p class="exit-kicker">Before you go</p>
+      <h3 id="exit-title">Look up one watch, on us.</h3>
+      <div data-lookup data-compact></div>
+      <a class="btn btn-cream" data-link="buy" href="#book">Get all 139 watches, $39 &rarr;</a>
+      <button class="or" type="button">No thanks, I&rsquo;ll take my chances</button>
+    </div>
+  </div>
 </dialog>
 
-<script src="assets/site.js?v=3"></script>
+<div class="buybar" aria-hidden="true">
+  <span><b>$39</b> The Vintage Watch Price Bible</span>
+  <a class="btn btn-cream btn-sm" data-link="buy" href="#book" tabindex="-1">Get the book</a>
+</div>
+
+<script src="assets/site.js?v=4"></script>
 <script>
 // Exit popup: once per visit, when the mouse leaves through the top of the window (desktop only).
 (function () {
@@ -252,7 +287,7 @@
     dlg.showModal();
   }
   setTimeout(function () { document.addEventListener("mouseout", show); }, 8000);
-  dlg.querySelector(".x").addEventListener("click", function () { dlg.close(); });
+  dlg.querySelectorAll(".x, .or").forEach(function (b) { b.addEventListener("click", function () { dlg.close(); }); });
   dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
   dlg.querySelectorAll("a").forEach(function (a) { a.addEventListener("click", function () { dlg.close(); }); });
 })();
