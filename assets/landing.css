@@ -106,6 +106,9 @@ section.alt{background:var(--paper-2)}
 section.night{background:var(--night);color:var(--cream)}
 section.night .num,section.night .part-head .mono{color:var(--gold-lt)}
 section.night .part-head p{color:#C9C2B3}
+.proof-photo{margin:0 0 64px;border:1px solid #2A3643;padding:10px;background:#0C131A}
+.proof-photo img{width:100%;aspect-ratio:21/8;object-fit:cover;object-position:center 60%}
+@media(max-width:760px){.proof-photo{margin-bottom:44px}.proof-photo img{aspect-ratio:16/10}}
 .proof{display:grid;grid-template-columns:1fr 1fr;gap:56px}
 .proof h3{color:var(--cream);font-size:1.4rem;padding-bottom:14px;border-bottom:1px solid #33404D}
 .row{display:flex;justify-content:space-between;gap:20px;padding:17px 0;border-bottom:1px dashed #33404D}
