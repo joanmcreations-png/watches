@@ -1,11 +1,8 @@
-// === Edit these links once the store exists (Lemon Squeezy or Gumroad) ===
+// Links used across the site. Every "buy" button goes to the Gumroad product.
 const TK = {
-  buyUrl: "#order",        // checkout link for the Price Bible ($39): paste the Gumroad link here
-  leadUrl: "assets/60-second-vintage-watch-check.pdf", // swap for the free product link that collects the email
-  youtubeUrl: "https://www.youtube.com/",
+  buyUrl: "https://timekeptwatches.gumroad.com/l/TheVintageWatchPriceBible",   // Gumroad product ($39)
+  youtubeUrl: "https://www.youtube.com/channel/UCsdXESiOdIiiopukcP5pT6Q",
 };
-// For now every link on the site goes to the paid book, including the free checklist buttons.
-TK.leadUrl = TK.buyUrl;
 
 document.querySelectorAll("[data-link]").forEach((a) => {
   const url = TK[a.dataset.link + "Url"];
